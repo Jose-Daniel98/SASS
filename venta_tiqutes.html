@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Venta de Tiquetes</title>
+    <link rel="shortcut icon" href="./iconos/logo3.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<!-- Incio header -->
+    <!-- Inicio Menú del index -->
+    <nav>
+        <div class="div_icono_menú">
+            <a href="./index.html">
+              <img src="./iconos/captura1.png" alt="avatar">
+          </a>
+        </div>
+        <label for="btn" class="icon">
+            <span class="fas fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./venta_tiqutes.html">Venta de Tiquetes</a></li>
+            <li>
+                <label for="btn-2" class="show">Rutas y Horarios</label>
+                <a href="#">Rutas y Horarios</a>
+                <input type="checkbox" id="btn-2">
+                <ul>
+                    <li><a href="./rutas.html">Rutas</a></li>
+                    <li><a href="./horarios.html">Horarios</a></li>
+                </ul>
+            </li>
+            <li><a href="./seguir_rutas.html">Seguir Rutas</a></li>
+            <li><a href="./servicio_cliente.html">Servicio al Cliente</a></li>
+            <li><a href="./contactenos.html">Contáctenos</a></li>
+        </ul>
+    </nav>
+    <!-- Fin Menú del index -->
+<!-- Fin header -->
+
+<!-- Inicio de main  -->
+<main class="main__contactenos">
+    <div class="div__content_contactenos">
+
+        <h1 class="logo__titulo_contactenos">Venta de Tiquetes <span>en Línea</span></h1> <!-- OJO Revisar OJO  -->
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Contact us</h3>
+                <form action="">
+                    <p>
+                        <label>Escoja la ruta a viajar</label>
+                        <select name="rutas">
+                            <option value="viaje0">Seleccione la ruta</option>
+                            <option value="viaje1">SAN JOSE - TURRIALBA</option>
+                            <option value="viaje2">TURRIALBA - SAN JOSE</option>
+                            <option value="viaje3">CARTAGO - TURRIALBA</option>
+                            <option value="viaje4">TURRIALBA - CARTAGO</option>
+                            <option value="viaje5">SIQUIRRES - TURRIALBA</option>
+                            <option value="viaje6">TURRIALBA - SIQUIRRES</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>Seleccione el servicio a viajar</label>
+                        <select name="servicio">
+                            <option value="viaje0">Seleccione el servicio a viajar</option>
+                            <option value="viaje1">EXPRESO</option>
+                            <option value="viaje2">COLECTIVO</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>Seleccione la fecha de viaje</label>
+                        <textarea class="nombre_contactenos" name="mensaje__contactenos" rows="1" placeholder="Escriba la fecha de viaje"></textarea>
+                    </p>
+                    <p>
+                        <label>Seleccione la hora de viaje</label>
+                        <select name="horas">
+                            <option value="viaje0">Seleccione la hora</option>
+                            <option value="viaje1">4:00 am</option>
+                            <option value="viaje2">5:00 am</option>
+                            <option value="viaje3">6:00 am</option>
+                            <option value="viaje4">7:00 am</option>
+                        </select>
+                    </p>
+                    <p class="block">
+                        <button>Escoger Asientos</button>
+                    </p>
+                    <p class="block">
+                        <button>Pagar Tiquete</button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <table>
+                    <h4>Tarifas</h4>
+                    <tbody>
+                        <tr>
+                            <td>SAN JOSE - TURRIALBA</td>
+                            <td>₡1600</td>
+                        </tr>
+                        <tr>
+                            <td>CARTAGO - TURRIALBA</td>
+                            <td>₡1000</td>
+                        </tr>
+                        <tr>
+                            <td>SIQUIRRES - TURRIALBA</td>
+                            <td>₡1300</td>
+                        </tr>
+                        <tr>
+                            <td>TURRIALBA - SAN JOSE</td>
+                            <td>₡1600</td>
+                        </tr>
+                        <tr>
+                            <td>TURRIALBA - CARTAGO</td>
+                            <td>₡1000</td>
+                        </tr>
+                        <tr>
+                            <td>TURRIALBA - SIQUIRRES</td>
+                            <td>₡1300</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+<!-- Final de main -->
+
+<!-- Inicio footer -->
+<footer class="footer">
+    <div class="container__footer">
+        <div class="row">
+            <div class="footer-col">
+                <h4 class="h4__footer">Turrialba</h4>
+                <ul class="ul__footer">
+                    <li class="li__footer"><a href="#">Tel: XXXX-XXXX</a></li>
+                    <li class="li__footer"><a href="#">Horario: Lunes a Viernes: 08:00 a.m a 12:30 p.m y de 1 p.m a 5:30 p.m</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="h4__footer">Cartago</h4>
+                <ul class="ul__footer">
+                    <li class="li__footer"><a href="#">Tel: XXXX-XXXX</a></li>
+                    <li class="li__footer"><a href="#">Horario: Lunes a Viernes: 08:00 a.m a 12:30 p.m y de 1 p.m a 5:30 p.m</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="h4__footer">San José</h4>
+                <ul class="ul__footer">
+                    <li class="li__footer"><a href="#">Tel: XXXX-XXXX</a></li>
+                    <li class="li__footer"><a href="#">Horario: Lunes a Viernes: 08:00 a.m a 12:30 p.m y de 1 p.m a 5:30 p.m</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="h4__footer">Síganos</h4>
+                <div class="social-links">
+                        <div class="contenedor__footer">
+                            <div class="boton">
+                                <div class="icono"><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i>Youtube</a></div>
+                            </div>
+                            <div class="boton">
+                                <div class="icono"><a href="https://youtu.be/O22ZREORIjo"><i class="fa fa-youtube"></i>Youtube</a></div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+</footer>
+<!-- Final footer -->
+
+</body>
+</html>
