@@ -1,0 +1,22 @@
+ {
+  "name": "crimson-buzes",
+  "version": "1.0.0",
+  "description": "Proyecto de Desarrollo Web CoderHouse",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path sass sass/index.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jose-Daniel98/SASS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jose-Daniel98/SASS/issues"
+  },
+  "homepage": "https://github.com/Jose-Daniel98/SASS#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

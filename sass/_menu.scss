@@ -1,0 +1,113 @@
+// INICIO MENU INDEX
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.div_icono_menú img{
+    width: 120px;
+    height: 60px;
+    float: left;
+}
+
+body{
+    background-color: #222222;
+}
+
+nav{
+    background: #660000;
+}
+
+nav:after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+nav .logo{
+    float: left;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-left: 60px;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+}
+
+nav ul li{
+    float: left;
+    display: inline-block;
+    background: #660000;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+
+nav ul li a:hover{
+    color: #8b0000;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #8b0000,
+                0 0 5px #8b0000
+}
+
+nav ul ul li a:hover{
+    color: #8b0000;
+    box-shadow: none;
+}
+
+nav ul ul{
+    position: absolute;
+    top: 90px;
+    border-top: 3px solid #8b0000;
+    opacity: 0;
+    visibility: hidden;
+    transition: top .3s;
+}
+
+nav ul ul ul{
+    border-top: none;
+}
+
+nav ul li:hover > ul{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+
+nav ul ul li{
+    position: relative;
+    margin: 0px;
+    width: 150px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul ul li a{
+    line-height: 50px;
+}
+
+nav ul ul ul li{
+    position: relative;
+    top: -70px;
+    left: 150px;
+
+}
+
+.fa-plus{
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+.show, .icon, input{
+    display: none;
+}
+// FIN MENU INDEX
