@@ -1,10 +1,11 @@
 // INICIO HORARIOS
 // Inicio horario 1
 .img__horario1 {
+	@extend .contenedor__horario1;
 	font-size: 16px;
 	min-height: 40.62em;
 	color: #fff;
-	background: url(./img_horarios/horario_1.jpg);
+	background: url(../img_horarios/horario_1.jpg);
     width: 800px;
     height:600px;
 	background-position: center center;
@@ -14,7 +15,7 @@
 	align-items: end;
 }
 
-.img__horario1 .contenedor__horario1 {
+.contenedor__horario1 {
 	margin: 0 auto;
 	margin-bottom: 6.25em;
 }
@@ -22,10 +23,11 @@
 
 // Inicio horario 2
 .img__horario2 {
+	@extend .contenedor__horario2;
 	font-size: 16px;
 	min-height: 40.62em;
 	color: #fff;
-	background: url(./img_horarios/horario_2.jpg);
+	background: url(../img_horarios/horario_2.jpg);
     width: 800px;
     height:600px;
 	background-position: center center;
@@ -35,7 +37,7 @@
 	align-items: end;
 }
 
-.img__horario2 .contenedor__horario2 {
+.contenedor__horario2 {
 	margin: 0 auto;
 	margin-bottom: 6.25em;
 }
@@ -43,10 +45,11 @@
 
 // Inicio horario 3
 .img__horario3 {
+	@extend .contenedor__horario3;
 	font-size: 16px;
 	min-height: 40.62em;
 	color: #fff;
-	background: url(./img_horarios/horario_3.jpg);
+	background: url(../img_horarios/horario_3.jpg);
     width: 800px;
     height:600px;
 	background-position: center center;
@@ -56,7 +59,7 @@
 	align-items: end;
 }
 
-.img__horario3 .contenedor__horario3 {
+.contenedor__horario3 {
 	margin: 0 auto;
 	margin-bottom: 6.25em;
 }
@@ -64,10 +67,11 @@
 
 // Inicio horario 4
 .img__horario4 {
+	@extend .contenedor__horario4;
 	font-size: 16px;
 	min-height: 40.62em;
 	color: #fff;
-	background: url(./img_horarios/horario_4.jpg);
+	background: url(../img_horarios/horario_4.jpg);
     width: 800px;
     height:600px;
 	background-position: center center;
@@ -77,7 +81,7 @@
 	align-items: end;
 }
 
-.img__horario4 .contenedor__horario4 {
+.contenedor__horario4 {
 	margin: 0 auto;
 	margin-bottom: 6.25em;
 }

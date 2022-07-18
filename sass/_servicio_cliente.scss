@@ -59,8 +59,13 @@ ul {
     padding: 1em;
 }
 
-.contact-form form .block {
+@mixin block {
     grid-column: 1 / 3;
+}
+
+.contact-form form {
+    // grid-column: 1 / 3;
+    @include block;
 }
 
 .contact-form form button,
