@@ -181,12 +181,10 @@ body {
   text-align: center;
   transition: all .3s ease-out; }
 
-.contenedor__footer .boton:nth-child(1):hover .icono {
-  background: #1877f2;
+.link-facebook {
   color: #fff; }
 
-.contenedor__footer .boton:nth-child(2):hover .icono {
-  background: #fff;
+.link-youtube {
   color: #fff; }
 
 .contenedor__footer .boton i {

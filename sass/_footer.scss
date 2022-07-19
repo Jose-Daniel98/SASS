@@ -101,16 +101,38 @@ body{
 }
 
 // Facebook
-.contenedor__footer .boton:nth-child(1):hover .icono{
-    background: #1877f2;
-    color: #fff;
+$redesSociales: (
+	facebook: #1877f2,
+
+);
+@each $nombre, $color in $redesSociales {
+	.link-#{$nombre}{
+		color: #fff;
+	}
+}
+
+// Facebook
+// .contenedor__footer .boton:nth-child(1):hover .icono{
+//     background: #1877f2;
+//     color: #fff;
+// }
+
+// Youtube
+$redesSociales: (
+	youtube: #fff,
+
+);
+@each $nombre, $color in $redesSociales {
+	.link-#{$nombre}{
+		color: #fff;
+	}
 }
 
 // Youtube
-.contenedor__footer .boton:nth-child(2):hover .icono{
-    background: #fff;
-    color: #fff;
-}
+// .contenedor__footer .boton:nth-child(2):hover .icono{
+//     background: #fff;
+//     color: #fff;
+// }
 
 .contenedor__footer .boton i{
     font-size: 25px;
